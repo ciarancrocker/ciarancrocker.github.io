@@ -88,3 +88,6 @@ body {
   }
 }
 
+#hidden_things {
+  display: none;
+}

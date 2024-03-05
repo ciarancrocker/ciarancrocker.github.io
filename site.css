@@ -90,7 +90,3 @@ body {
     flex-direction: column;
   }
 }
-
-#hidden_things {
-  display: none;
-}

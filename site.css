@@ -56,6 +56,8 @@ div#the_details > h1,h2,p {
 
 body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 @media (min-width: 2000px) {
@@ -73,11 +75,12 @@ body {
   #the_content {
     width: 600px;
     flex-direction: column;
+    border-radius: 0;
   }
   img#the_img {
     width: 100%;
     height: auto;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0;
   }
 }
 

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
@@ -8,7 +9,10 @@
   <body>
     <div id="the_box">
       <div id="the_content">
-        <img src='https://ciarancrocker.net/media/profile4_cropped.jpg' id='the_img'>
+        <img src='./media/profile_600.jpg'
+          id='the_img'
+          srcset='./media/profile_600.webp 600w, ./media/profile_300.webp 300w'
+          sizes='(max-width: 600px) 600px, 300px'>
         <div id='the_details'>
           <h1>Ciaran Crocker</h1>
           <h2>I sometimes do interesting things</h2>
